@@ -63,7 +63,7 @@ header nav a:hover{
 }
 
 .hero{
-    min-height: 75vh;
+    min-height: 90vh;
     background: url(./img/fundo.png) center 0/ cover no-repeat ;
     padding: 30px 40px 80px;
     display:  flex;
@@ -182,6 +182,8 @@ header nav a:hover{
     background: linear-gradient(135deg, #ffd700, #ffa500);
     border-radius: 8px;
     margin-bottom: 30px;
+    height: 50px;
+    width: 70px;
 }
 
 .card-number{
@@ -291,16 +293,23 @@ header nav a:hover{
     box-shadow: 0 8px 15px rgba(255, 255, 255, 0.8);
 }
 
-.footer{
+footer{
     background-color: var(---dark);
     padding: 60px 40px 30px;
 }
 
 .footer-top{
     max-width: 1200px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     gap: 60px;
+}
+
+.info-nu{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10px;
+    width: 350px;
 }
 
 .footer-top h4{
@@ -316,9 +325,25 @@ header nav a:hover{
     height: 22px;
     margin-bottom: 20px;
 }
-
+.footer-links{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    gap: 5px;
+    width: 300px;
+}
+.footer-links a{
+    color: white; 
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footer-links a:hover{
+    color: var(---purple);
+}
 
 
 .footer-bottom{
-
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10px;
 }
